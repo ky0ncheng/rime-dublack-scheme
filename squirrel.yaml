@@ -1,0 +1,43 @@
+app_options:
+  com.alfredapp.Alfred:
+    ascii_mode: true
+  com.apple.Terminal:
+    ascii_mode: true
+    no_inline: true
+  com.blacktree.Quicksilver:
+    ascii_mode: true
+  com.googlecode.iterm2:
+    ascii_mode: true
+  "com.runningwithcrayons.Alfred-2":
+    ascii_mode: true
+  org.vim.MacVim:
+    ascii_mode: true
+    no_inline: true
+chord_duration: 0.1
+config_version: 0.22.custom.2114999648
+customization: 2114999648
+preset_color_schemes:
+  dublack:
+    author: Ky0ncheng
+    back_color: 0x000000
+    border_height: 0
+    border_width: 0
+    candidate_format: "%c %@ "
+    candidate_text_color: 0xBCBEBF
+    comment_text_color: 0x999999
+    corner_radius: 5
+    font_face: "PingFangSC-Regular,HanaMinB"
+    font_point: 16
+    hilited_candidate_back_color: 0x000000
+    hilited_candidate_text_color: 0xFFFFFF
+    horizontal: true
+    inline_preedit: true
+    label_font_face: "STHeitiSC-Light"
+    label_font_point: 12
+    name: "渡黑"
+    text_color: 0x424242
+show_notifications_via_notification_center: false
+show_notifications_when: appropriate
+style:
+  color_scheme: dublack
+us_keyboard_layout: false

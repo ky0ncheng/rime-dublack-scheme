@@ -1,0 +1,25 @@
+patch:
+  show_notifications_when: appropriate  # 狀態通知，適當(appropriate)，開（always）關（never）
+
+  style:
+    color_scheme: dublack
+  preset_color_schemes:
+    dublack: 
+      name: "渡黑"
+      author: "Ky0ncheng"
+      horizontal: true  # 水平排列
+      inline_preedit: true #單行顯示，false雙行顯示
+      candidate_format: "%c\u2005%@\u2005"  # 編號 %c 和候選詞 %@ 前後的空間s's's
+      corner_radius: 5  #候選條圓角
+      border_height: 0
+      border_width: 0
+      back_color: 0x000000  #候選條背景色
+      font_face: "PingFangSC-Regular,HanaMinB"  #候選詞字體SSS
+      font_point: 16  #候選字詞大小
+      text_color: 0x424242  #高亮選中詞顏色
+      label_font_face: "STHeitiSC-Light"   #候選詞編號字體
+      label_font_point: 12   #候選編號大小
+      hilited_candidate_text_color: 0xFFFFFF  #候選文字顏色
+      candidate_text_color: 0xBCBEBF #其他候選文字顏色
+      hilited_candidate_back_color: 0x000000  #候選文字背景色
+      comment_text_color: 0x999999  #拼音等提示文字顏色
